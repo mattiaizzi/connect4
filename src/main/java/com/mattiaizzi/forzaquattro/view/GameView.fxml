@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mattiaizzi.forzaquattro.view.GameController">
+   <children>
+      <AnchorPane fx:id="fieldPane" prefHeight="400.0" prefWidth="600.0" />
+      <Label fx:id="message" layoutX="14.0" layoutY="400.0" styleClass="label-bright" />
+      <Button fx:id="playAgain" layoutX="432.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleReGame" text="Gioca di nuovo" />
+   </children>
+</AnchorPane>
