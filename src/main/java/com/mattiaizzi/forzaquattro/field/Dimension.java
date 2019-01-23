@@ -1,5 +1,7 @@
 package com.mattiaizzi.forzaquattro.field;
 
+
+
 public class Dimension {
 	private int rows;
 	private int columns;

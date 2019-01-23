@@ -2,7 +2,13 @@ package com.mattiaizzi.forzaquattro.player;
 
 import com.mattiaizzi.forzaquattro.coin.Coin;
 import com.mattiaizzi.forzaquattro.move.ForzaMove;
-
+/**
+ * Classe che rappresenta un giocatore generico
+ * 
+ * 
+ * @author Mattia Izzi
+ *
+ */
 public abstract class Player {
 
 	private String name;

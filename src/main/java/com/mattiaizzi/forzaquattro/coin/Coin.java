@@ -2,6 +2,12 @@ package com.mattiaizzi.forzaquattro.coin;
 
 import javafx.scene.paint.Color;
 
+/**
+ * Classe che rappresenta un gettone di forza 4
+ * @author Mattia Izzi
+ *
+ */
+
 public class Coin {
 	private final char id;
 	private final Color color;

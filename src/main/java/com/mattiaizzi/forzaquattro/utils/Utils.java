@@ -1,10 +1,14 @@
 package com.mattiaizzi.forzaquattro.utils;
 
 
-
 import com.mattiaizzi.forzaquattro.field.Size;
 
-import javafx.scene.paint.Color;
+/**
+ * Classe di utililtà, contiene classi di output e classi di supporto al programma
+ * 
+ * @author Mattia Izzi
+ *
+ */
 
 public class Utils {
 	public static class Output{
@@ -43,8 +47,8 @@ public class Utils {
 		}
 	}
 	
+	
 	public static class Decode{
-		
 		public static Size getSize(String string) {
 			switch (string) {
 			case "5x4":

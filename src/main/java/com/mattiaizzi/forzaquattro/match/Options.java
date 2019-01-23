@@ -2,8 +2,14 @@ package com.mattiaizzi.forzaquattro.match;
 
 import com.mattiaizzi.forzaquattro.coin.Coin;
 import com.mattiaizzi.forzaquattro.field.Size;
-
 import javafx.scene.paint.Color;
+
+/**
+ * Classe rappresentate le opzioni di un singolo game
+ * 
+ * @author Mattia Izzi
+ *
+ */
 
 public class Options {
 	
@@ -17,6 +23,17 @@ public class Options {
 	private Coin coinP2;
 	private String player2;
 	
+	/**
+	 * Costruttore 
+	 * 
+	 * @param type Il tipo di gioco (PVE o PVP)
+	 * @param size Le dimensioni della griglia su cui si gioca
+	 * @param difficulty Difficoltà del gioco in caso di PVE
+	 * @param player1 Il nome del primo giocatore
+	 * @param player2 Il nome del secondo giocatore
+	 * @param coinP1 Il gettone del primo giocatore
+	 * @param coinP2 Il gettone del secondo giocatore
+	 */
 	public Options(GameType type, Size size, GameDifficulty difficulty,
 			String player1, String player2, Coin coinP1, Coin coinP2) {
 		this.type = type;
@@ -28,6 +45,14 @@ public class Options {
 		this.coinP2 = coinP2;
 	}
 	
+	/**
+	 * Costruttore con gettoni di default
+	* @param type Il tipo di gioco (PVE o PVP)
+	 * @param size Le dimensioni della griglia su cui si gioca
+	 * @param difficulty Difficoltà del gioco in caso di PVE
+	 * @param player1 Il nome del primo giocatore
+	 * @param player2 Il nome del secondo giocatore
+	 */
 	public Options(GameType type,Size size, GameDifficulty difficulty, String player1, String player2) {
 		this(type, size, difficulty, 
 				player1, player2, DEFAULT_COIN_PLAYER_1, DEFAULT_COIN_PLAYER_2 );

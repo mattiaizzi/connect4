@@ -1,7 +1,10 @@
 package com.mattiaizzi.forzaquattro.field;
 
-import com.mattiaizzi.forzaquattro.match.GameDifficulty;
-
+/**
+ * Semplice enumerazione che definisce le dimensioni di una griglia
+ * @author Mattia Izzi
+ *
+ */
 public enum Size {
 	FIVE_FOUR, SIX_FIVE, EIGHT_SEVEN, NINE_SEVEN, TEN_SEVEN, EIGHT_EIGHT, SEVEN_SIX;
 

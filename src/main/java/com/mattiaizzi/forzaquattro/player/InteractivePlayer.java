@@ -5,6 +5,15 @@ import com.mattiaizzi.forzaquattro.controller.IOController;
 import com.mattiaizzi.forzaquattro.move.ForzaMove;
 import com.mattiaizzi.forzaquattro.utils.Utils;
 
+
+/**
+ * Classe che rappresenta un giocatore interattivo.
+ * 
+ * Estende la classe astratta Player
+ * 
+ * @author Mattia Izzi
+ *
+ */
 public class InteractivePlayer extends Player {
 
 	private IOController controller;

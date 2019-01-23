@@ -10,6 +10,11 @@ import java.io.PrintStream;
 import com.mattiaizzi.forzaquattro.controller.IOController;
 import com.mattiaizzi.forzaquattro.field.Field;
 
+/**
+ * Controller per il gioco da console
+ * @author Mattia Izzi
+ *
+ */
 public class ConsoleController implements IOController {
 
 	private BufferedReader in;

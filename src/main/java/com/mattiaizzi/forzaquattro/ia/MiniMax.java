@@ -5,6 +5,13 @@ import java.util.List;
 
 import com.mattiaizzi.forzaquattro.move.ForzaMove;
 
+
+/**
+ * Specifica dell'algoritmo minimax 
+ * @author Mattia Izzi
+ *
+ * @param <M> Il tipo di mossa(varia in base al gioco: forza quattro, tris,..)
+ */
 public abstract class MiniMax <M extends Move> implements IA<M>{
 
 	@Override

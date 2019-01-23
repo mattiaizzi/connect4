@@ -2,13 +2,19 @@ package com.mattiaizzi.forzaquattro.ia;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import com.mattiaizzi.forzaquattro.coin.Coin;
 import com.mattiaizzi.forzaquattro.field.Field;
 import com.mattiaizzi.forzaquattro.match.GameDifficulty;
 import com.mattiaizzi.forzaquattro.move.ForzaMove;
 import com.mattiaizzi.forzaquattro.player.Player;
 
+
+/**
+ * Implementazione dell'algoritmo minimax per il gioco forza 4
+ * 
+ * @author Mattia Izzi
+ *
+ */
 public class ForzaMiniMax extends MiniMax<ForzaMove> {
 
 	private final static int PLAYER1 = 0;
@@ -70,7 +76,7 @@ public class ForzaMiniMax extends MiniMax<ForzaMove> {
 
 	@Override
 	public void unmakeMove(ForzaMove move) {
-		field.removeCoin(move.getColumn(), coins[currentPlayer]);
+		field.removeCoin(move.getColumn());
 		changeTurn();
 	}
 

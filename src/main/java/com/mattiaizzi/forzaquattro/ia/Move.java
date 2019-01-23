@@ -1,5 +1,11 @@
 package com.mattiaizzi.forzaquattro.ia;
 
+
+/**
+ * Classe che rappresenta una generica mossa in un gioco a somma zero
+ * @author Mattia Izzi
+ *
+ */
 public abstract class Move implements Comparable<Move> {
 
 	double value;

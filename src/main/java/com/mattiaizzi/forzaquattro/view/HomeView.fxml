@@ -15,7 +15,7 @@
          </styleClass>
       </Label>
       <Button fx:id="play" layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#handlePlay" text="Play" />
-      <Button fx:id="info" layoutX="14.0" layoutY="238.0" mnemonicParsing="false" onMouseEntered="#handleInfo" onMouseExited="#outOfInfo" text="Info" />
+      <Button fx:id="info" layoutX="14.0" layoutY="238.0" mnemonicParsing="false" onMouseClicked="#handleInfo" onMouseEntered="#handleInfo" onMouseExited="#outOfInfo" text="Info" />
       <Button fx:id="exit" layoutX="15.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleExit" text="Exit" />
       <Pane fx:id="animationPane" layoutX="173.0" layoutY="104.0" prefHeight="300.0" prefWidth="400.0" />
    </children>
